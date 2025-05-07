@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 24px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #003366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.1);
+  border-bottom: 3px solid #e0ecff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.container .button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-button{
+  width: 54px;
+  height: 30px;
+  padding: 6px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 2px 1px blue;
+}
+
+.InputContainer{
+  margin: auto;
+}
+
+input{
+  text-align: center;
+  width: 84px;
+  height: 40px;
+  padding: 6px;
+  font-size: large;
+  font-weight: bold;
+  border: 0.1px solid blue;
+  outline: rgb(98, 98, 235);
+  box-shadow: 1px 2px 1px blue;
+}
+
+.reset .reset-button{
+  width: 60px;
+  height: 30px;
+  padding: 6px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 2px 1px blue;  
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
